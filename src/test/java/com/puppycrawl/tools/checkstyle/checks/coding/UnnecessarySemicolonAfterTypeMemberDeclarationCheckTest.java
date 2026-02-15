@@ -67,12 +67,12 @@ public class UnnecessarySemicolonAfterTypeMemberDeclarationCheckTest
 
         final String[] expected = {
             "14:5: " + getCheckMessage(MSG_SEMI),
-            "18:5: " + getCheckMessage(MSG_SEMI),
-            "22:5: " + getCheckMessage(MSG_SEMI),
-            "27:5: " + getCheckMessage(MSG_SEMI),
-            "33:5: " + getCheckMessage(MSG_SEMI),
-            "38:5: " + getCheckMessage(MSG_SEMI),
-            "40:5: " + getCheckMessage(MSG_SEMI),
+            "17:5: " + getCheckMessage(MSG_SEMI),
+            "21:5: " + getCheckMessage(MSG_SEMI),
+            "26:5: " + getCheckMessage(MSG_SEMI),
+            "32:5: " + getCheckMessage(MSG_SEMI),
+            "37:5: " + getCheckMessage(MSG_SEMI),
+            "39:5: " + getCheckMessage(MSG_SEMI),
         };
 
         verifyWithInlineConfigParser(
